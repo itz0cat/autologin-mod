@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "autologin",
+  "version": "${version}",
+  "name": "AutoLogin",
+  "description": "Automatically runs /login when prompted in chat. Supports per-server passwords.",
+  "authors": ["AutoLogin"],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/autologin/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.autologin.AutoLoginClient"]
+  },
+  "mixins": [],
+  "depends": {
+    "fabricloader": ">=0.18.1",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
